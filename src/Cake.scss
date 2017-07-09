@@ -1,0 +1,28 @@
+.Cake{
+  margin-bottom:10px;
+  width:100%;
+  display:flex;
+  background-color: white;
+  &-image-container{
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img{
+      width:100%;
+    }
+  }
+  &-text-container{
+    padding: 30px 10px;
+    width:60%;
+    font-size: 1.3rem;
+    .Cake-description{
+      font-size: 0.9rem;
+
+    }
+  }
+  &-action-container{
+    display: flex;
+    align-items: center;
+    
+  }
+}

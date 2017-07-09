@@ -1,0 +1,16 @@
+.Form{
+  margin-bottom: 30px;
+  >p{
+    margin-bottom: 10px;
+  }
+}
+input{
+    display: block;
+    outline: none;
+    padding: 10px;
+    box-sizing : border-box;
+    width: 100%;
+    border:none;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
